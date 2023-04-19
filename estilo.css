@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Flex', sans-serif;;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.menu{
+    display: none;
+    font-size: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding-right: 20px;
+}
+header h2{
+    font-family: 'Mr Dafoe', cursive;
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+}
+.logo{                 /*LOGO */
+    display: flex;
+    align-items: center;
+}
+.imagenlogo{
+margin-right: 30px;
+width: 8%;
+}
+.hero h2{
+    color: white;
+    font-size: 33px;
+}
+.hero h1{
+    color:#fed400;
+    font-size: 110px;
+
+}
+.hero{
+    color: white;
+    font-size: 20px;
+}
+
+.hero{
+    background-image: url(fondoo.jpg);
+    height: 100vh;
+}
+.titulo{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+}
+.imagenes img{        /*hero parte derecha*/
+    border-radius: 5%;
+}
+
+.foto1{
+    position: absolute;
+    left: 75%;
+    top: 27%;
+    width: 18%;
+}
+.foto2{
+    position: absolute;
+    left: 54%;
+    top: 15%;
+    width: 23%;
+}
+
+.foto3{
+    position: absolute;
+    left: 60%;
+   top: 50%;
+    width: 18%;
+}
+.redes{                 
+   position: absolute;
+  margin-top: 43%;
+  margin-left: 10%;
+}
+.redes a{
+    text-decoration: none;
+  color: white;
+  font-size: 17px;
+  padding-right: 15px;
+}
+
+.introd{
+    height:50% ;
+   background: linear-gradient(rgb(44, 40, 40), rgb(109, 99, 99), rgb(145, 131, 131)) ;
+   display: flex;
+   flex-direction: column;
+   display: flex;
+}
+.tours{
+    background-color: rgb(192, 186, 186);
+}
+.tours h1{          /*SECTION TOURS*/
+color: #fed400;
+font-size: 50px;
+margin-left:45%;
+margin-top: 5%;
+}
+.tours p{
+    font-size: 18px;
+    justify-content: center;
+    margin: 5% ;
+    text-align: center;
+} 
+.tours2{             
+    display: flex;
+}
+.tour1 {  /*TOUR 1*/
+    width: 50%;
+    color: black;
+}
+.tour1 h2{
+    font-size: 20px;
+    margin-top: 25%;
+    margin-left: 10%;
+    font-size: 33px;
+    text-align: center;
+}
+.tour1 p{
+    color: black;
+}
+.tour1 button, .texto2 button, .texto3 button, .texto4 button{ /*BOTONES*/
+    margin-left: 40%;
+    width: 25%;
+    height: 50px;
+    background-color:#fed400;
+    color:black;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color 1s;
+}
+.tour1 button:hover{
+    color: rgb(179, 174, 174);
+}
+.imagen1{
+margin: 8% 3%;
+width: 50%;
+}
+.imagen1 img{
+    width: 100%;
+}
+.tour2{              /*TOUR 2*/
+    display: flex;
+    
+}
+.texto2{
+    width: 50%;
+    margin-bottom: 40px;
+}
+.texto2 h2{
+    font-size: 20px;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 33px;
+}
+.texto2 button:hover{
+    color:rgb(179, 174, 174)
+}
+.imagen2{
+    width: 50%;
+    margin: 0% 3%
+}
+.imagen2 img{
+    width: 100%;
+}
+.tour3{
+    display: flex;      /*TOUR 3*/
+}
+.texto3{
+    width: 50%;
+    margin-top: 13%;
+}
+.texto3 h2{
+    font-size: 20px;
+    margin-left: 10%;
+    font-size: 33px;
+    text-align: center;
+}
+.texto3 button:hover{
+    color: rgb(179, 174, 174);
+}
+.imagen3{
+    width: 50%;
+    margin: 8%  3%;
+}
+.imagen3 img{
+    width: 100%;
+}
+.tour4{                 /*TOUR 4*/
+    display: flex;
+    padding-bottom: 5%;
+}
+.texto4{
+    width: 50%;
+    margin-top: 8%;
+}
+.texto4 h2{
+    font-size: 20px;
+    margin-left: 10%;
+    font-size: 33px;
+    text-align: center;
+}
+.texto4 button:hover{
+    color: rgb(179, 174, 174);
+}
+.imagen4{
+    width: 50%;
+    margin: 2% 3%;
+}
+.imagen4 img{
+    width: 100%;
+}
+.aboutus{               /*SECTION ABOUT US*/
+    display: flex;
+    background: rgb(65, 61, 61);
+}
+.textoabout{
+    margin-top: 10%;
+    margin-right: 5%   ;
+    margin-left: 5%;
+    width: 50%;
+    padding-bottom: 30px;
+}
+.textoabout h1{
+    color: #fed400;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+.textoabout p{
+    line-height:30px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+}
+.fotoabout{
+    width: 50%;
+    margin-top: 15%;
+    margin-right: 5%;
+}
+.fotoabout img{
+    width: 100%;
+}
+.contact{   /*formulario de contacto*/
+  /*  background-color:rgb(44, 40, 40);*/
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   flex-direction: column;
+           }
+   .contact h2{
+    color:#fed400;
+   font-size: 50px;
+   margin-top: 90px;
+   margin-bottom: 20px;
+               }
+    input{
+        outline: none;
+       }
+   .form1{
+        display: flex;
+       align-items: center;
+       justify-content: space-between;
+               }
+   .form1 div{
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       justify-content: center;
+        width: 47%;
+       margin-bottom: 10px;
+               }
+   .input1{
+       width: 225px;
+       height: 40px;
+       border: none;
+       border-radius: 8px;
+       height: 5vh;
+       margin: 8px 0;
+        padding: 0 8px;
+        border:1px solid rgb(109, 99, 99)
+      }
+              
+   .input2{
+       width: 100%;
+       padding: 0.5rem 0 20vh 0.5rem;
+       border: none;
+       border-radius: 8px;
+        margin-top: 8px;
+        border: 1px solid rgb(109, 99, 99);
+               }
+               
+   .contact button{ /*FORMULARIO BOTON ENVIAR*/
+       margin-top: 8%;
+       margin-left: 30%;
+       color: #fff;
+       background-color:rgb(65, 61, 61);
+       width:180px;
+       height: 45px;
+        font-size: 14px;
+       font-weight: 700;
+       border-radius: 10px;
+       border-style: none;
+       cursor:pointer;
+       transition: background-color 1s;
+                  }
+   .contact button:hover{
+       background-color: rgb(44, 40, 40);
+}
+footer{                   /*FOOTER */
+    background-color: rgb(109, 99, 99);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+}
+footer a{
+    text-decoration: none;
+
+}
+.iconos{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.iconos i{
+    margin-top: 3%;
+    margin-right: 45px;
+    cursor: pointer;
+    color: white;
+}
+@media (max-width: 1200px){
+   
+    nav{
+        display: none;
+}
+.menu{
+    display: block;
+}
+.redes a{
+    display: none;
+}
+.hero{
+    flex-direction: column;
+}
+.imagenes{
+    display: none;
+}
+.tours{
+    flex-direction: column;
+}
+.tours2, .tour2, .tour3, .tour4{
+    flex-direction: column;
+    justify-content: center;
+}
+.aboutus{
+    flex-direction: column;
+    padding-bottom: 0;
+}
+.textoabout{
+    justify-content: center;
+    
+
+    }
+.aboutus img{
+    width: 60vh;
+    margin: 0 20%;
+}
+}
+
+
